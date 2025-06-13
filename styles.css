@@ -13,10 +13,23 @@ body {
     min-height: 100vh;
 }
 
+.main {
+    width: 100%;
+    max-width: 350px;
+    padding: 40px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 .container {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
     background-color: white;
     padding: 20px;
     border-radius: 12px;
